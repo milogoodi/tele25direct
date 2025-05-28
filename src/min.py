@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 
-TOKEN = os.getenv("7917048534:AAEHc0ZnKRhNLnvUFIsTeOIxdh-5DJ4L0PQ")
+TOKEN = os.getenv("7184786133:AAEmWFEbmeKU-RDWIhO7355ZPZQ91LpP1nU")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("سلام! لینک فایل تلگرام رو بفرست تا لینک مستقیم بدم 🎯")
