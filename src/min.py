@@ -20,7 +20,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("متأسفانه مشکلی پیش آمده است ❌")
 
 # ساخت اپلیکیشن و اجرای بات
-if name == "main":
+if _ name_ == "_main_":
     app = ApplicationBuilder().token(TOKEN).build()
 
     # اضافه کردن هندلرها
